@@ -1,0 +1,7 @@
+<nav class="h-24 bg-white shadow sticky top-0 z-10">
+  <div class="container h-full">
+    <ul class="flex items-center h-full justify-center gap-6">
+      <li [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="!text-teal-600 !border-teal-600" class="h-full border-b-2 border-white px-4 flex items-center justify-center" *ngFor="let mainNavItem of mainNavItems"><a [routerLink]="mainNavItem.url">{{ mainNavItem.title }}</a></li>
+    </ul>
+  </div>
+</nav>
