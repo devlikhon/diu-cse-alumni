@@ -19,6 +19,7 @@ import { HomepageComponent } from './pages/homepage/homepage.component';
 import { RegistrationComponent } from './pages/registration/registration.component';
 import { LoginComponent } from './pages/login/login.component';
 import { RegistrationApprovalComponent } from './pages/registration-approval/registration-approval.component';
+import { PageHeaderComponent } from './components/page-header/page-header.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { RegistrationApprovalComponent } from './pages/registration-approval/reg
     HomepageComponent,
     RegistrationComponent,
     LoginComponent,
-    RegistrationApprovalComponent
+    RegistrationApprovalComponent,
+    PageHeaderComponent
   ],
   imports: [
     BrowserModule,

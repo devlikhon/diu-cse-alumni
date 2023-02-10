@@ -4,9 +4,13 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "preview": "ng serve --open",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "deploy": "ng deploy",
+    "deploy:view": "ng deploy && open 'https://diu-cse-alumni-200.web.app'",
+    "view:current": "open 'https://diu-cse-alumni-200.web.app'"
   },
   "private": true,
   "dependencies": {
@@ -27,6 +31,7 @@
     "@angular-devkit/build-angular": "^15.0.5",
     "@angular/cli": "~15.0.5",
     "@angular/compiler-cli": "^15.0.0",
+    "@tailwindcss/typography": "^0.5.9",
     "@types/jasmine": "~4.3.0",
     "autoprefixer": "^10.4.13",
     "jasmine-core": "~4.5.0",
