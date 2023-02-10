@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "diu-cse-alumni-200": {
+      "hosting": {
+        "diu-alumni": [
+          "diu-cse-alumni-200"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "diu-cse-alumni-200"
+  }
+}

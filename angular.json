@@ -97,8 +97,21 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "diu-alumni:build:production",
+            "firebaseProject": "diu-cse-alumni-200",
+            "firebaseHostingSite": "diu-cse-alumni-200"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "821e5fb1-468b-4657-80ce-dd8c0dd90204"
   }
 }
