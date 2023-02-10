@@ -20,6 +20,7 @@ import { RegistrationComponent } from './pages/registration/registration.compone
 import { LoginComponent } from './pages/login/login.component';
 import { RegistrationApprovalComponent } from './pages/registration-approval/registration-approval.component';
 import { PageHeaderComponent } from './components/page-header/page-header.component';
+import { EventCardComponent } from './components/event-card/event-card.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { PageHeaderComponent } from './components/page-header/page-header.compon
     RegistrationComponent,
     LoginComponent,
     RegistrationApprovalComponent,
-    PageHeaderComponent
+    PageHeaderComponent,
+    EventCardComponent
   ],
   imports: [
     BrowserModule,

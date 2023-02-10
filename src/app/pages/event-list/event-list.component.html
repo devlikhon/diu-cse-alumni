@@ -1,1 +1,5 @@
 <app-page-header page-title="Events"></app-page-header>
+
+<section class="container py-8 grid gap-8">
+  <app-event-card *ngFor="let event of events$ | async"></app-event-card>
+</section>
