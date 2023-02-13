@@ -22,6 +22,7 @@ import { RegistrationApprovalComponent } from './pages/registration-approval/reg
 import { PageHeaderComponent } from './components/page-header/page-header.component';
 import { EventCardComponent } from './components/event-card/event-card.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { ProfileCardComponent } from './components/profile-card/profile-card.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     RegistrationApprovalComponent,
     PageHeaderComponent,
     EventCardComponent,
-    NavbarComponent
+    NavbarComponent,
+    ProfileCardComponent
   ],
   imports: [
     BrowserModule,
